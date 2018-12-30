@@ -58,9 +58,9 @@ class Writer implements Runnable {
 	@Override
 	public void run() {
 		String[] messages = {"message 1",
-							"message 2",
-							"message 3",
-							"message 4"};
+					"message 2",
+					"message 3",
+					"message 4"};
 		Random random = new Random();
 		for (int i=0; i<messages.length; i++) {
 			message.write(messages[i]);
